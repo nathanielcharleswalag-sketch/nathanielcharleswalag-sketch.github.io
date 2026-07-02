@@ -15,5 +15,6 @@ body {
             background-attachment: fixed; 
 }
 .mainelement {
-
+            background-image: url('assets/diamondbg1.jpeg');
+            outline: 10px solid white;
 }
