@@ -1,0 +1,30 @@
+body {
+            /* Path to your image file or an online URL */
+            background-image: url('assets/diamondbg2.jpeg'); 
+            
+            /* Prevents the image from repeating like a grid tile */
+            background-repeat: no-repeat; 
+            
+            /* Stretches the image to cover the full viewport */
+            background-size: cover; 
+            
+            /* Centers the image on the screen */
+            background-position: center; 
+            
+            /* Keeps the background fixed when scrolling */
+            background-attachment: fixed; 
+}
+.mainelement {
+            background-image: url('assets/diamondbg1.jpeg');
+            outline: 10px solid white;
+}
+.mainh1 {
+            text-align: center;
+            color: aqua;
+            /* Outline width and color */
+            font-weight: bold;
+            background-color: rgb(0,0,0,50%)
+}
+.topbutton {
+            background-color: aqua
+}
