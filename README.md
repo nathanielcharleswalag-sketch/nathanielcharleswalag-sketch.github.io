@@ -1,2 +1,2 @@
-# vii-diamond-grshs-x.github.io
+# Vii Diamond Website
 VII Diamond Website!
