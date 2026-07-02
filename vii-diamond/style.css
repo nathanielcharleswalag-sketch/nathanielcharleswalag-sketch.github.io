@@ -18,3 +18,13 @@ body {
             background-image: url('assets/diamondbg1.jpeg');
             outline: 10px solid white;
 }
+.mainh1 {
+            text-align: center;
+            color: aqua;
+            /* Outline width and color */
+            font-weight: bold;
+            background-color: rgb(0,0,0,50%)
+}
+.topbutton {
+            background-color: aqua
+}
