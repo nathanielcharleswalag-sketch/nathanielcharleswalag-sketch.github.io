@@ -1,0 +1,19 @@
+body {
+            /* Path to your image file or an online URL */
+            background-image: url('assets/diamondbg2.jpg'); 
+            
+            /* Prevents the image from repeating like a grid tile */
+            background-repeat: no-repeat; 
+            
+            /* Stretches the image to cover the full viewport */
+            background-size: cover; 
+            
+            /* Centers the image on the screen */
+            background-position: center; 
+            
+            /* Keeps the background fixed when scrolling */
+            background-attachment: fixed; 
+}
+.mainelement {
+
+}
