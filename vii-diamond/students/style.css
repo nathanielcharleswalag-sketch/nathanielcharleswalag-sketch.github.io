@@ -1,6 +1,6 @@
 body {
             /* Path to your image file or an online URL */
-            background-image: url('assets/diamondbg2.jpeg'); 
+            background-image: url('../assets/diamondbg2.jpeg'); 
             
             /* Prevents the image from repeating like a grid tile */
             background-repeat: no-repeat; 
@@ -15,7 +15,7 @@ body {
             background-attachment: fixed; 
 }
 .mainelement {
-            background-image: url('assets/diamondbg1.jpeg');
+            background-image: url('../assets/diamondbg1.jpeg');
             outline: 10px solid white;
 }
 .mainh1 {
