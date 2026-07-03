@@ -12,6 +12,7 @@ function newElement(lastname,firstname,image,age,height,weight,hobbies,line) {
 `
 				document.body.insertAdjacentHTML("beforeend", selement)
 }
+console.log("starting")
 const names = {
 				awatin: {
 								firstname: "Rhaine Jorgette",
