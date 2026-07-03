@@ -17,7 +17,7 @@ const names = {
 								firstname: "Rhaine Jorgette",
 								lastname: "Awatin",
 								middleinitial: null,
-								image: null,
+								image: "1783053184412~2.jpg",
 								age: 11,
 					hobbies: "reading, writing, singing, dancing",
 					height: 0,
