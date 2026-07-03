@@ -1,9 +1,10 @@
-function newElement(lastname,firstname,image,age,height,weight,hobbies,line) {
+function newElement(lastname,firstname,image,age,height,weight,hobbies,line,gender) {
 				const selement = `<div class="mainelement">
     <h1 class="mainh1">${lastname}, ${firstname}</h1>
     <img src="../assets/${image}" alt="${lastname}" style="max-width: 100px; height: auto;"></img>
     <p class="mainh1">Age: ${age} y/o</p>
     <p class="mainh1">Height: ${height} cm</p>
+	<p class="mainh1">Gender: ${gender}</p>
 
 	<p class="mainh1">Weight: ${weight} kg</p>
     <p class="mainh1">Hobbies: ${hobbies}</p>
@@ -24,7 +25,7 @@ const names = {
 					height: 0,
 					weight: 0,
 					line: "",
-	
+					gender: "female",
 				},
 				baang: {
 					firstname: "Uriel Nick",
@@ -35,23 +36,25 @@ const names = {
 					hobbies: "badminton, piano, baking, karate",
 					height: 149,
 					weight: 60,
+					gender: "male",
 					line: "Bad things are made for good things."
 				},
 				butcon: {
 								firstname: "James",
 								lastname: "Butcon",
 								middleinitial: null,
-								image: null,
+								image: "butcon.jpg",
 								age: 12,
 					hobbies: "",
 					height: 0,
 					weight: 0,
 					line: "",
+					gender: "male",
 				},
 }
 for (const [key, value] of Object.entries(names)) {
 				console.log(key)
-				newElement(value["lastname"], value["firstname"], value["image"], value["age"], value["height"], value["weight"], value["hobbies"], value["line"])
+				newElement(value["lastname"], value["firstname"], value["image"], value["age"], value["height"], value["weight"], value["hobbies"], value["line"], value["gender"])
 }
 
 
