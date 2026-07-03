@@ -3,9 +3,9 @@ function newElement(lastname,firstname,image,age,height,weight,hobbies,line) {
     <h1 class="mainh1">${lastname}, ${firstname}</h1>
     <img src="../assets/${image}" alt="${lastname}" style="max-width: 100px; height: auto;"></img>
     <p class="mainh1">Age: ${age} y/o</p>
-    <p class="mainh1">Height: ${height}</p>
+    <p class="mainh1">Height: ${height} cm</p>
 
-	<p class="mainh1">Weight: ${weight}</p>
+	<p class="mainh1">Weight: ${weight} kg</p>
     <p class="mainh1">Hobbies: ${hobbies}</p>
     <p class="mainh1">Famous line: ${line}</p>
   </div>
@@ -32,7 +32,7 @@ const names = {
 					image: "Messenger_creation_990973577147227~2.jpeg",
 					age: 11,
 					hobbies: "badminton, piano, baking, karate",
-					height: 60,
+					height: 149,
 					weight: 60,
 					line: "Bad things are made for good things."
 				},
