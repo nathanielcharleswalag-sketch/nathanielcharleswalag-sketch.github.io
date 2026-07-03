@@ -19,7 +19,7 @@ const names = {
 								middleinitial: null,
 								image: null,
 								age: 11,
-					hobbies: "",
+					hobbies: "reading, writing, singing, dancing",
 					height: 0,
 					weight: 0,
 					line: "",
