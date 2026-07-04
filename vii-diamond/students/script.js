@@ -60,8 +60,8 @@ for (const [key, value] of Object.entries(names)) {
 				newElement(value["lastname"], value["firstname"], value["image"], value["age"], value["height"], value["weight"], value["hobbies"], value["line"], value["gender"])
 };
 for (const name of jsonNames) {
-	const tmpArray = name.split(",")
-	newElement(tmpArray[0], tmpArray[1],null,0,0,0,"","","")
+	const tmpArray = name.split(",");
+	newElement(tmpArray[0], tmpArray[1],null,0,0,0,"","","");
 };
 console.log("Students: " + studentsCount)
 
