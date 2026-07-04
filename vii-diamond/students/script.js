@@ -13,6 +13,7 @@ function newElement(lastname,firstname,image,age,height,weight,hobbies,line,gend
 `
 				document.body.insertAdjacentHTML("beforeend", selement)
 }
+let jsonNames = {"Dogillio, Elee Keln", "Elpa, Nicole Kim", "Emata, Lyrchell Vince", "Felisilda, Angelo Jethro", "Fusillero, Abigail Chearm", "Gaputan, Aubrey Mae", "Labitad, Ma. Cristelo Cyle", "Lapina, Zoe Roneese", "Lumakin, Margarette", "Malazarte, Rona", "Maminta, Yusuf Iqbaal", "Mandalunes, Ephraim Glent", "Mayonila, Ashley Kate", "Montay, Hashreen", "Montes, Marianne", "Nahial, Andres", "Naong, Lee", "Ociones, Jeihan Myr", "Pacheco, Yniana Jireh", "Pajo, Chris Gabriel", "Panis, Kwynn", "Panlee, Ziva Mishka", "Quiblat, Ralph Lawrence", "Ra, Sophia Ysabel", "Rafanan, Ralph Nathan", "Rangel, Keanna", "Rojo, Summer", "Sedigo, Althea Joy", "Taboclaon, Charice Grace", "Tobias, Hanna Faith", "Tumanda, Zack V", "Villena, Bernachel", "Wagas, Innowe Faith", "Walag, Nathaniel Charles", "Ysabel"}
 console.log("starting")
 const names = {
 				awatin: {
@@ -55,6 +56,10 @@ const names = {
 for (const [key, value] of Object.entries(names)) {
 				console.log(key)
 				newElement(value["lastname"], value["firstname"], value["image"], value["age"], value["height"], value["weight"], value["hobbies"], value["line"], value["gender"])
+}
+for (const name of jsonNames) {
+	const tmpArray = name.split(",")
+	newElement(tmpArray[0], tmpArray[1],null,0,0,0,"","","")
 }
 
 
