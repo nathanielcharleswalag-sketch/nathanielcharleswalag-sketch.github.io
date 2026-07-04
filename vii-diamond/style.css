@@ -22,6 +22,7 @@ body {
             transform: translate(-50%, 0%);
             position: relative;
             max-width: 100%;
+            align-items: center;
 }
 .topelement {
             background-image: url('assets/diamondbg1.jpeg');
@@ -31,9 +32,11 @@ body {
             transform: translate(-50%, 0%);
             position: relative;
             max-width: 100%;
+            align-items: center;
 }
 .mainform {
             display: inline;
+            position: relative;
 }
 .mainimage {
             max-width: 100%;
