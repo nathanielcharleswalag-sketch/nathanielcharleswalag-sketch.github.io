@@ -21,6 +21,7 @@ body {
             left: 50%;
             transform: translate(-50%, 0%);
             position: relative;
+            max-width: 100%
 }
 .mainimage {
             max-width: 100%;
