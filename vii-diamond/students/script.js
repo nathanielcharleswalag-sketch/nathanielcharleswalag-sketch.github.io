@@ -63,6 +63,6 @@ for (const name of jsonNames) {
 	const tmpArray = name.split(",")
 	newElement(tmpArray[0], tmpArray[1],null,0,0,0,"","","")
 };
-print("Students: " + studentsCount)
+console.log("Students: " + studentsCount)
 
 
