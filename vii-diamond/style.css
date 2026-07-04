@@ -23,6 +23,18 @@ body {
             position: relative;
             max-width: 100%;
 }
+.topelement {
+            background-image: url('assets/diamondbg1.jpeg');
+            outline: 10px solid white;
+            width: 100%;
+            left: 50%;
+            transform: translate(-50%, 0%);
+            position: relative;
+            max-width: 100%;
+}
+.mainform {
+            display: inline;
+}
 .mainimage {
             max-width: 100%;
             height: 400px;
