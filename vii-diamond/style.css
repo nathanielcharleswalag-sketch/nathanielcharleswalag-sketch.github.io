@@ -19,7 +19,14 @@ body {
             outline: 10px solid white;
             width: 500px;
             left: 50%;
-            transform: translate(-50%, -50%);
+            transform: translate(-50%, 0%);
+            position: relative;
+}
+.mainimage {
+            width: 500px;
+            left: 50%;
+            transform: translate(-50%, 0%);
+            position: relative;
 }
 .mainh1 {
             text-align: center;
