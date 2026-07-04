@@ -1,4 +1,6 @@
+let studentsCount = 0
 function newElement(lastname,firstname,image,age,height,weight,hobbies,line,gender) {
+	studentsCount += 1
 				const selement = `<div class="mainelement">
     <h1 class="mainh1">${lastname}, ${firstname}</h1>
     <img src="../assets/${image}" alt="${lastname}" style="max-width: 100px; height: auto;"></img>
@@ -61,5 +63,6 @@ for (const name of jsonNames) {
 	const tmpArray = name.split(",")
 	newElement(tmpArray[0], tmpArray[1],null,0,0,0,"","","")
 };
+print("Students: " + studentsCount)
 
 
